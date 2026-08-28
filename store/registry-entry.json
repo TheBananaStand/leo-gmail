@@ -1,0 +1,39 @@
+{
+  "name": "gmail",
+  "label": "Gmail",
+  "description": "Gmail as a mail provider for the Inbox — sync and flag write-through, installed at runtime.",
+  "icon": "mail",
+  "version": "1.0.0",
+  "author": "TheBananaStand",
+  "homepage": "https://github.com/TheBananaStand/leo-gmail-mcp",
+  "category": "package",
+  "mcp": {
+    "transport": "stdio",
+    "command": "npx",
+    "args": [
+      "-y",
+      "https://github.com/TheBananaStand/leo-gmail-mcp/archive/PIN_ME.tar.gz"
+    ]
+  },
+  "descriptor": {
+    "provides": [
+      "mail"
+    ],
+    "oauth_provider": "google",
+    "entitlements": {
+      "network": [
+        "gmail.googleapis.com"
+      ],
+      "sends": [
+        {
+          "to": "gmail.googleapis.com",
+          "classes": [
+            "mail",
+            "credentials"
+          ],
+          "purpose": "Your Google account token, and the read/starred/archived/trashed changes you make in the Inbox so they land in Gmail too. Mail travels one way — Google's servers to your hub — and nothing from Leo's other packages is attached. The token is minted by Leo per call from the Google account you already connected; this package holds no OAuth app of its own."
+        }
+      ]
+    }
+  }
+}
