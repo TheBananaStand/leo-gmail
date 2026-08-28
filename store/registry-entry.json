@@ -12,7 +12,7 @@
     "command": "npx",
     "args": [
       "-y",
-      "https://github.com/TheBananaStand/leo-gmail-mcp/archive/PIN_ME.tar.gz"
+      "https://github.com/TheBananaStand/leo-gmail-mcp/archive/f2195c8b9655097fd02bd6834933d29b7449cdde.tar.gz"
     ]
   },
   "descriptor": {
