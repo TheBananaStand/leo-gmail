@@ -1,10 +1,10 @@
 {
-  "name": "leo-gmail-mcp",
+  "name": "leo-gmail",
   "version": "1.0.0",
   "description": "Gmail as a Leo mail provider, over MCP.",
   "type": "module",
   "bin": {
-    "leo-gmail-mcp": "index.js"
+    "leo-gmail": "index.js"
   },
   "main": "index.js",
   "files": [

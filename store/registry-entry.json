@@ -5,14 +5,14 @@
   "icon": "mail",
   "version": "1.0.0",
   "author": "TheBananaStand",
-  "homepage": "https://github.com/TheBananaStand/leo-gmail-mcp",
+  "homepage": "https://github.com/TheBananaStand/leo-gmail",
   "category": "package",
   "mcp": {
     "transport": "stdio",
     "command": "npx",
     "args": [
       "-y",
-      "https://github.com/TheBananaStand/leo-gmail-mcp/archive/f2195c8b9655097fd02bd6834933d29b7449cdde.tar.gz"
+      "https://github.com/TheBananaStand/leo-gmail/archive/f2195c8b9655097fd02bd6834933d29b7449cdde.tar.gz"
     ]
   },
   "descriptor": {

@@ -1,4 +1,4 @@
-# leo-gmail-mcp
+# leo-gmail
 
 Gmail as a Leo **mail provider**, over MCP — sync into the Inbox, and
 write-through of read / starred / archived / trashed back to Gmail.

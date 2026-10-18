@@ -343,7 +343,7 @@ export function missingRequired(name, args) {
 }
 
 const server = new Server(
-  { name: "leo-gmail-mcp", version: "1.0.0" },
+  { name: "leo-gmail", version: "1.0.0" },
   { capabilities: { tools: {} } },
 );
 
